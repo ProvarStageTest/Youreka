@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="18" registryId="685df27b-c8cf-4aea-978e-12f4d23ec7aa" visibility="Internal">
+<testCase id="6" registryId="685df27b-c8cf-4aea-978e-12f4d23ec7aa" visibility="Internal">
   <summary/>
   <steps>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="22" title="Salesforce Connect: Stagetest (Test)">
@@ -455,6 +455,9 @@
               </clauses>
             </apiCall>
             <apiCall apiId="com.provar.plugins.bundled.apis.control.StepGroup" name="StepGroup" testItemId="620" title="Free Text to Section A">
+              <tags>
+                <string>disabled</string>
+              </tags>
               <arguments>
                 <argument id="description">
                   <value class="value" valueClass="string">Free Text to Section A</value>
@@ -478,10 +481,10 @@
                           <value class="value" valueClass="boolean">false</value>
                         </argument>
                         <argument id="beforeWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="afterWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="interactionDescription">
                           <value class="value" valueClass="string">Drag the Text_ Image_ Space_ Draggable_ Button button</value>
@@ -504,10 +507,10 @@
                           <value class="value" valueClass="boolean">false</value>
                         </argument>
                         <argument id="beforeWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="afterWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="interactionDescription">
                           <value class="value" valueClass="string">Drop the Section_ A_ Question_ Drop_ Area field</value>
@@ -639,6 +642,9 @@
               </clauses>
             </apiCall>
             <apiCall apiId="com.provar.plugins.bundled.apis.control.StepGroup" name="StepGroup" testItemId="625" title="Template Image on Section A">
+              <tags>
+                <string>disabled</string>
+              </tags>
               <arguments>
                 <argument id="description">
                   <value class="value" valueClass="string">Template Image on Section A</value>
@@ -662,7 +668,7 @@
                           <value class="value" valueClass="boolean">false</value>
                         </argument>
                         <argument id="beforeWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="afterWait">
                           <value class="uiWait" uri="default"/>
@@ -688,7 +694,7 @@
                           <value class="value" valueClass="boolean">false</value>
                         </argument>
                         <argument id="beforeWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="afterWait">
                           <value class="uiWait" uri="default"/>
@@ -823,6 +829,9 @@
               </clauses>
             </apiCall>
             <apiCall apiId="com.provar.plugins.bundled.apis.control.StepGroup" name="StepGroup" testItemId="627" title="Space on Template A">
+              <tags>
+                <string>disabled</string>
+              </tags>
               <arguments>
                 <argument id="description">
                   <value class="value" valueClass="string">Space on Template A</value>
@@ -846,7 +855,7 @@
                           <value class="value" valueClass="boolean">false</value>
                         </argument>
                         <argument id="beforeWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="afterWait">
                           <value class="uiWait" uri="default"/>
@@ -872,7 +881,7 @@
                           <value class="value" valueClass="boolean">false</value>
                         </argument>
                         <argument id="beforeWait">
-                          <value class="uiWait" uri="default"/>
+                          <value class="uiWait" uri="ui:wait:timed?seconds=1"/>
                         </argument>
                         <argument id="afterWait">
                           <value class="uiWait" uri="default"/>
