@@ -655,6 +655,35 @@ public class discostage__TemplateBuilder {
 				@FindBy(xpath = "//td[3]/span/div/div/select")
 				public WebElement WhenTheQuestion;
 
+				@BooleanType()
+				@FindBy(css = "input[name=\"depValues0-Blue\"]")
+				public WebElement Blue_Picklist_Button;
+
+				@TextType()
+				@FindBy(css = "#form-builder li.list-group-item.OR-question-box.question-0.ui-sortable-handle[data-question-name=\"6-Picklist\"] div.qb-edit.flex-center.editQuestion")
+				public WebElement Picklist_Edit_Button;
+
+				@TextType()
+				@FindBy(css = "#tab-scoped-2 td.valid-values span.slds-badge input[name=\"depValues0-Protein\"]")
+				public WebElement Protein_Multi_Select_Picklist;
+
+
+				@BooleanType()
+				@FindBy(css = "#tab-scoped-2 span.slds-badge input[name=\"depValues0-Yes\"]")
+				public WebElement Yes_Radio_Button_List;
+
+				@BooleanType()
+				@FindBy(css = "#tab-scoped-2 span.slds-badge input[name=\"depValues0-No\"]")
+				public WebElement No_Radio;
+
+				@TextType()
+				@FindBy(css = "#form-builder li.list-group-item.OR-question-box.question-0.ui-sortable-handle[data-question-name=\"10-Long-Text\"] div.qb-edit.flex-center.editQuestion")
+				public WebElement Long_Text_Edit_Button;	
+				
+				@TextType()
+				@FindBy(css = "#form-builder li.list-group-item.OR-question-box.question-0.ui-sortable-handle[data-question-name=\"1-Text\"] div.qb-edit.flex-center.editQuestion")
+				public WebElement Text_Edit_Button;
+
 
 
 	
