@@ -1,2 +1,0 @@
-# Youreka
-Youreka Regression Testing
